@@ -1,0 +1,59 @@
+body {
+  margin: 10px;
+}
+
+#first {
+  color: orange;
+  font-weight: bold;
+}
+
+.product {
+  color: bisque;
+  font-size: medium;
+}
+
+a[target="_blank"] {
+  color: blue;
+}
+
+#products ~ p {
+  color: brown;
+}
+
+section p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+section :last-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+a:hover {
+  color: deeppink;
+}
+a:focus {
+  color: deeppink;
+}
+
+#FirstLetter p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+#FirstLetter p::before {
+  content: "...";
+  display: block;
+}
+
+::selection {
+  background-color: rgb(238, 142, 225);
+}

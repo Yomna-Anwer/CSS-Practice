@@ -1,0 +1,30 @@
+.container {
+  /*trbl (top right bottom left) -> if there 4 values if 2 there will be vertical and horizontal*/
+  padding: 20px 20px 10px 520px;
+}
+table,
+td {
+  padding: 10px;
+  border-bottom: 1px solid;
+  border-collapse: collapse;
+  border-color: #c4dcf3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+thead,
+tfoot {
+  font-weight: bold;
+  background-color: #427fef;
+  color: white;
+}
+
+#box {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  background-color: tomato;
+  box-shadow: 10px 10px lightgrey;
+}
